@@ -1,9 +1,57 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My Portfolio</title>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tair Kaldybayev | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero section">
         <h1>Hello, I'm Tair!</h1>
-    </body>
+        <p>Software Engineer | Cybersecurity Enthusiast | Creative Mind</p>
+        <a href="#contact" class="button">Contact Me</a>
+    </header>
+
+    <section id="about" class="section hidden">
+        <h2>About Me</h2>
+        <p>I am passionate about software development, AI technologies, and creating meaningful projects that make people's lives easier.</p>
+    </section>
+
+    <section id="projects" class="section hidden">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Nomad LLM Hub</h3>
+                <p>Multi-LLM SaaS platform for Kazakhstan. Integrates DeepSeek, ChatGPT, Claude.</p>
+                <a href="#">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <h3>QaldyAI</h3>
+                <p>Startup creating AI solutions for social problems like corruption and education access.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section hidden">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>AI Integration</li>
+            <li>Cybersecurity Basics</li>
+        </ul>
+    </section>
+
+    <footer id="contact" class="section hidden">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:taircaldy.yt@gmail.com">taircaldy.yt@gmail.com</a></p>
+        <p>Telegram: <a href="https://t.me/tairqaldy" target="_blank">@tairqaldy</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
 </html>
